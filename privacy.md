@@ -1,15 +1,4 @@
-import 'package:flutter/material.dart';
 
-class PrivacyPolicyScreen extends StatelessWidget {
-  const PrivacyPolicyScreen({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(title: const Text('Privacy Policy')),
-      body: SingleChildScrollView(
-        padding: const EdgeInsets.all(16),
-        child: const Text('''
 Privacy Policy (PDF Merger App)
 
 Effective Date: March 16, 2026
@@ -49,7 +38,7 @@ We may update this Privacy Policy from time to time. Continued use of the App af
 7. Contact Us
 
 If you have any questions about this Privacy Policy, you can contact us at:
-support@pdfmerger.com
+webtrie@gmail.com
 
 Last Updated: March 16, 2026
           ''', style: TextStyle(fontSize: 16, height: 1.5)),
